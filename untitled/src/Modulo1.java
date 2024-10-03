@@ -28,9 +28,11 @@ Instrucciones:
         edad= pedirInt(teclado);
         System.out.println("Introduzca su ciudad de origen por favor:");
         ciudad= pedirString(teclado);
+        teclado.close();
         frase= "Buenos días "+ nombre+ " se ha registrado que su edad es de " + edad+" años y su ciudad de origen es "
                 +ciudad + " que pase un buen día :)";
         System.out.println(frase);
+
 
 
     }
