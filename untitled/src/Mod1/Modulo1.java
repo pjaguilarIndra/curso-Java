@@ -1,3 +1,5 @@
+package Mod1;
+
 import java.util.Scanner;
 
 public class Modulo1 {
